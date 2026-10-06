@@ -1,1 +1,2 @@
-# Day - 3
+/node_modules
+.env
