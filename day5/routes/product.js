@@ -5,7 +5,7 @@ const { protect } = require("../middleware/auth")
 
 router.get("", c.getProducts);
 
-
+router.get("/mine", protect, c.getMyProducts);
 
 router.get("/:id", c.getProduct)
 

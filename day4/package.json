@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-
   "dependencies": {
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
